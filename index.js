@@ -24,7 +24,7 @@ let globalItem ={
 		thisuser.room.emit("hat",{guid:thisuser.public.guid,src:newitem.src});
 	}},
 	"hat_kamala":{name:'Kamala Hat',id:'hat_kamala',cost:15,max:1,eff:(thisuser,item)=>{
-		let newitem =  {type:'hat',name:'hat_kamala',src:'https://bonzi.gay/img/bonzi/kamala.png'};
+		let newitem =  {type:'hat',name:'hat_kamala',src:'https://bonzi.gay/img/bonzi/kamala.webp'};
 		for(let i=0;i<thisuser.public.cosmetics.length;i++){
 			let thisitem = thisuser.public.cosmetics[i];
 			if(thisitem.name.startsWith('hat'))thisuser.public.cosmetics.splice(i,1);
@@ -33,7 +33,7 @@ let globalItem ={
 		thisuser.room.emit("hat",{guid:thisuser.public.guid,src:newitem.src});
 	}},
 	"hat_bucket":{name:'Bucket Hat',id:'hat_bucket',cost:15,max:1,eff:(thisuser,item)=>{
-		let newitem =  {type:'hat',name:'hat_bucket',src:'https://bonzi.gay/img/bonzi/bucket.png'};
+		let newitem =  {type:'hat',name:'hat_bucket',src:'https://bonzi.gay/img/bonzi/bucket.webp'};
 		for(let i=0;i<thisuser.public.cosmetics.length;i++){
 			let thisitem = thisuser.public.cosmetics[i];
 			if(thisitem.name.startsWith('hat'))thisuser.public.cosmetics.splice(i,1);
