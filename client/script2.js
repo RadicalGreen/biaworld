@@ -1724,16 +1724,16 @@ BonziCOINS Menu `,`
             <hr>
             <div style="display:flex;flex-direction:row;width:200px;">
                 <button class="msBtn"onclick="socket.emit('coins',{action:'buy',target:'hat_elon'})">
-                    ELON HAT <img src="https://bonzi.gay/img/bonzi/elon.png" width="80" height="auto">
+                    ELON HAT <img src="https://bonzi.gay/img/bonzi/elon.webp" width="80" height="auto">
                 </button>
                 <button class="msBtn"onclick="socket.emit('coins',{action:'buy',target:'hat_kamala'})">
-                    KAMALA HAT <img src="https://bonzi.gay/img/bonzi/kamala.png" width="80" height="auto">
+                    KAMALA HAT <img src="https://bonzi.gay/img/bonzi/kamala.webp" width="80" height="auto">
                 </button>
             </div>
             <br>
             <div style="display:flex;flex-direction:row;width:200px;">
                 <button class="msBtn"onclick="socket.emit('coins',{action:'buy',target:'hat_elon'})">
-                    ELON HAT <img src="https://bonzi.gay/img/bonzi/elon.png" width="80" height="auto">
+                    ELON HAT <img src="https://bonzi.gay/img/bonzi/elon.webp" width="80" height="auto">
                 </button>
                 <button class="msBtn"onclick="socket.emit('coins',{action:'buy',target:'hat_elon'})">
                     KAMALA HAT <img src="https://bonzi.gay/img/bonzi/kamala.png" width="80" height="auto">
